@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Candidate.Domain", "Candida
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Candidate.DataAccess", "Candidate.DataAccess\Candidate.DataAccess.csproj", "{42E7D986-D24B-43E2-BD32-15C9EF21E136}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Candidate.Test", "Candidate.UnitTest\Candidate.Test.csproj", "{7E8CCD48-1EB2-4E74-A91D-5E4892878475}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{42E7D986-D24B-43E2-BD32-15C9EF21E136}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42E7D986-D24B-43E2-BD32-15C9EF21E136}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42E7D986-D24B-43E2-BD32-15C9EF21E136}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E8CCD48-1EB2-4E74-A91D-5E4892878475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E8CCD48-1EB2-4E74-A91D-5E4892878475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E8CCD48-1EB2-4E74-A91D-5E4892878475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E8CCD48-1EB2-4E74-A91D-5E4892878475}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
