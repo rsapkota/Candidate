@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Candidate.WebAPI", "Candidate\Candidate.WebAPI.csproj", "{004B1D4C-1287-46C0-B99F-5A606174A537}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Candidate.WebAPI", "Candidate\Candidate.WebAPI.csproj", "{004B1D4C-1287-46C0-B99F-5A606174A537}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Candidate.Services", "Candidate.Services\Candidate.Services.csproj", "{CB5175E0-E135-435A-B1DE-37686477F4BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Candidate.Domain", "Candidate.Domain\Candidate.Domain.csproj", "{D158D6E7-80FF-4D58-B1F1-4E26BF94A351}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Candidate.Domain", "Candidate.Domain\Candidate.Domain.csproj", "{D158D6E7-80FF-4D58-B1F1-4E26BF94A351}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Candidate.DataAccess", "Candidate.DataAccess\Candidate.DataAccess.csproj", "{42E7D986-D24B-43E2-BD32-15C9EF21E136}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Candidate.DataAccess", "Candidate.DataAccess\Candidate.DataAccess.csproj", "{42E7D986-D24B-43E2-BD32-15C9EF21E136}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +19,6 @@ Global
 		{004B1D4C-1287-46C0-B99F-5A606174A537}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{004B1D4C-1287-46C0-B99F-5A606174A537}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{004B1D4C-1287-46C0-B99F-5A606174A537}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CB5175E0-E135-435A-B1DE-37686477F4BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CB5175E0-E135-435A-B1DE-37686477F4BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CB5175E0-E135-435A-B1DE-37686477F4BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CB5175E0-E135-435A-B1DE-37686477F4BC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D158D6E7-80FF-4D58-B1F1-4E26BF94A351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D158D6E7-80FF-4D58-B1F1-4E26BF94A351}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D158D6E7-80FF-4D58-B1F1-4E26BF94A351}.Release|Any CPU.ActiveCfg = Release|Any CPU
