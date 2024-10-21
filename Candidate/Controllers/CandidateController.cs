@@ -18,6 +18,10 @@ namespace Candidate.Controllers
         [HttpPost("upsert")]
         public async Task<IActionResult> UpsertCandidate([FromBody] CandidateDto candidate, CancellationToken cancellationToken)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
             if (candidate == null)
             {
                 return BadRequest("Candidate cannot be null.");
